@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "Testing Node.js rtemplate"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
