@@ -4,5 +4,5 @@ metadata:
   name: "Alice"
 spec:
   type: service
-  owner: group:Frontend
+  owner: group:frontend
   lifecycle: production
