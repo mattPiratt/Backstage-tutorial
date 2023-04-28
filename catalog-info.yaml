@@ -4,5 +4,19 @@ metadata:
   name: "Alice"
 spec:
   type: service
-  owner: Frontend
+  owner: group:Frontend
   lifecycle: production
+--
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: Frontend
+  description: The Frontend devlopment team
+spec:
+  type: team
+  profile:
+    displayName: Frontend development team
+    email: fe-dev@stroeermediabrands.de
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: software-development-teams
+  members: [robert.wlodarek, max.dombrowski, john.reimer]
