@@ -168,3 +168,12 @@ Layout in Alice provides some markup based on bootstrap grid layout and Twig blo
 ## Scaffolding
 
 Extending the Alice ```base.twig``` file to bootstrap the asset. Twig blocks are provided in the ```base.twig``` as placeholder, so you just need to modify these blocks for custom behaviour. Use ```{{ parent() }}``` to extend a block, without ```{{ parent() }}``` the block will be overwritten completely. For examble:
+
+
+```twig
+{% extends '@alice/base.twig' %}
+
+{% block base_body %}
+  <h1>Hello World!</h1>
+{% endblock %}
+```
