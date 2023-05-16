@@ -1,6 +1,4 @@
 site_name: 'Alice documentation'
 
 nav:
-  - Home: README.md
-
-docs_dir: .
+  - Home: index.md
