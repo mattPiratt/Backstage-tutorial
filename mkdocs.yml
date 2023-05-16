@@ -1,4 +1,6 @@
-site_name: 'example-docs'
+site_name: 'Alice documentation'
 
 nav:
-  - Home: index.md
+  - Home: README.md
+
+docs_dir: .
