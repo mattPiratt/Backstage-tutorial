@@ -177,3 +177,13 @@ Extending the Alice ```base.twig``` file to bootstrap the asset. Twig blocks are
   <h1>Hello World!</h1>
 {% endblock %}
 ```
+
+Extending
+
+```twig
+{% extends '@alice/base.twig' %}
+
+{% block base_body %}
+  <h1>Hello World!</h1>
+{% endblock %}
+```
