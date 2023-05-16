@@ -188,11 +188,4 @@ These blocks are defined in Alice ```base.twig```:
   {% block base_stylesheets %}{% endblock %}
   {% block base_scripts %}{% endblock %}
 </head>
-<body class="{% block body_classes %}{% endblock %}">
-  {% block base_body_start %}{% endblock %}
-  {% block base_body %}{% endblock %}
-  {% block base_body_end %}
-</body>
 ```
-
-
