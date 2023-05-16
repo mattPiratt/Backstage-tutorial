@@ -182,6 +182,7 @@ These blocks are defined in Alice ```base.twig```:
 
 ```twig
 <head>
+{% block base_body %}
 {% endblock %}
 </head>
 ```
