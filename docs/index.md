@@ -183,9 +183,5 @@ These blocks are defined in Alice ```base.twig```:
 ```twig
 <head>
   {% block base_title %}{% endblock %}
-  {% block base_meta %}{% endblock %}
-  {% block base_favicon %}{% endblock %}
-  {% block base_stylesheets %}{% endblock %}
-  {% block base_scripts %}{% endblock %}
 </head>
 ```
